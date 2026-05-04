@@ -46,9 +46,13 @@ No typing. No clicking field by field. Just drag, capture, and paste.
 3. bash   git clone https://github.com/yourusername/field-copycat.git
 
 4 .Open Chrome and go to chrome://extensions
+
 5. Enable Developer mode using the toggle in the top-right corner
+
 6. Click "Load unpacked"
+
 7. Select the copycat-extension folder
+
 8. The Field Copycat icon will appear in your Chrome toolbar — pin it for easy access
 
 
