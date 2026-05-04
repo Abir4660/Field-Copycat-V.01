@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Field Copycat",
+  "version": "1.1",
+  "description": "Select an area on any webpage to copy form fields, then paste into empty fields anywhere.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon48.png"
+    }
+  },
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["content.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
